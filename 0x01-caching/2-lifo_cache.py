@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """Last-In First-Out caching
 """
@@ -34,4 +33,3 @@ class LIFOCache(BaseCaching):
         """Retrieves an item by key.
         """
         return self.cache_data.get(key, None)
-
